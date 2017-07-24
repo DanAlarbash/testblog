@@ -20,11 +20,14 @@
 
     <ul>
 
-    	<li>{{post_detail.id}}</li>
+    	<h2>{{post_detail.id}}</h2>
         <li>{{post_detail.name}}</li>
         <li>{{post_detail.CV}}</li>
+        <li>{{post_detail.updated}}</li>
+        <li>{{post_detail.timestamp}}</li>
 
     </ul>
+    <a href="{% url 'list' %}">Go back to list</a>
 
 
 </body>
